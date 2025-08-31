@@ -1,0 +1,22 @@
+# iOS Build Artifacts
+**/build/
+**/DerivedData/
+**/*.xcworkspace/xcuserdata/
+**/xcuserdata/
+**/xcschemes/
+**/project.xcworkspace/xcshareddata/
+**/project.xcworkspace/xcuserdata/
+
+# Xcode
+**/*.xcodeproj/project.xcworkspace/
+**/*.xcodeproj/xcuserdata/
+**/*.xcodeproj/xcshareddata/
+
+# Swift Package Manager
+**/.build/
+**/Packages/
+**/Package.resolved
+
+# General
+**/.DS_Store
+**/Thumbs.db
