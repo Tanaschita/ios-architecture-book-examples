@@ -26,6 +26,10 @@ struct ExampleAppApp: App {
                     }
                     .tag(Tab.settings.rawValue)
             }
+            .environment(appRouter)
+            .onOpenURL { url in
+                appRouter.handle(deeplink: url)
+            }
         }
     }
 }
